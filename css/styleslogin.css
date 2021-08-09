@@ -1,0 +1,92 @@
+body {margin: auto; font-family: Arial, Helvetica, sans-serif;}
+
+.form-box{
+  /* display: inline-block; */
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:50%;
+  border: none;
+  /* color: #FFFFFF; */
+	text-align: center;
+  margin: auto;
+
+}
+
+#rem{
+  margin-left: -2px;
+}
+
+.form-box input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #ddd;
+  outline: none;
+}
+input[type=text]:focus, input[type=password]:focus{
+  border-color: red;
+}
+input[type=submit], input[type=reset], form button{
+  background-color: #305373;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 130px;
+  outline: none;
+}
+/*.bg-dark{
+  background-color: black;
+  outline: none;
+}*/
+input[type=submit]:hover, input[type=reset]:hover, button#reg:hover{
+  background-color: #252527;
+  opacity: .9;
+  transition: .2s;
+}
+label{
+  float: left;
+  margin-left: 3px;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+  @media all and (max-width:1100px) {
+    .form-box{
+      /* display: inline-block; */
+      width:80%;
+      border-radius: 4px;
+      border: none;
+      /* color: #FFFFFF; */
+    	text-align: center;
+      margin: auto;
+    }
+    .form-box h1{
+      font-size: 150%;
+    }
+  }
+  @media all and (max-width:900px) {
+    input[type=submit], form button{
+      /* display: block; */
+      margin-bottom: 8px;
+      margin-right: auto;
+      margin-left: auto;
+      width: px;
+    }
+
+  }
+  @media all and (max-width:515px) {
+
+    td label{
+      font-size: 14px;
+    }
+  }

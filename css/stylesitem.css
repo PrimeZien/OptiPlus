@@ -1,0 +1,356 @@
+.item-content{
+	padding: 1%;
+	/*background-color: red;*/
+	display: inline-block;
+    justify-content: center;
+}
+#set1, #set3, #set5, #set6, #set8{/*
+	background-color: red;*/
+	padding: 5px;
+}
+#set2{
+	padding: 5px;
+}
+#set4{
+	padding: 5px;
+}
+
+
+input#qty{
+  text-align: right;
+  width: 40px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  border: 1px solid #305373;	
+  outline: none;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides, .mySlides1 {
+  display: none;
+  background-color: white;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  opacity: .5;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade, .fade1 {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+/*
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#buy-now{
+	border: 1px solid #f2f3f4;
+	border-radius: 5px;
+	color: white;
+	padding:10px;
+	background-color: #1f4c96;
+	outline: none;
+}
+#add-to-wishlist{
+	border: 1px solid #f2f3f4;
+	border-radius: 5px;
+	color: white;
+	padding:10px;
+	background-color: #216bd6;
+	outline: none;
+}
+#buy-now:hover{
+  background-color: #D5D8DC;
+  font-weight: bold;
+  color: #1f4c96;
+  border: 1px solid #1f4c96;
+  transition: .0s;
+  cursor: pointer;
+}
+#add-to-wishlist:hover{
+  background-color: #D5D8DC;
+  font-weight: bold;
+  color: #216bd6;
+  border: 1px solid #216bd6;
+  transition: .0s;
+  cursor: pointer;
+}
+
+.des-button{
+	padding: 0;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	margin: 0;
+	background-color: white;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+
+.description .paragraph{
+	padding: 10px;
+	padding-top: -10px;
+	margin-top: -1px;
+	color: black;
+
+}
+.description{
+	background-color: white;
+}
+
+.desh{
+	color: #305373;
+	background-color: white;
+	margin: 0;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+	border:1px solid #305373;
+	border-bottom: none;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+
+.active1, .desh:hover {
+ 	background-color: #305373;
+ 	color: white;
+}
+
+/*#0073eb*/
+.mySlides1 img{
+  width:100%;
+}
+
+.bg-payment{
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.payment-content{
+  width: 400px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.payment-header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.payment-header h1 {
+  font-size: 17px;
+  font-weight: bold;
+  background-color: white; 
+  padding: 5px;
+}
+.payment-header button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.slide-controls button{
+  width: 50%;
+  margin: 0;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+}
+.slide-controls{
+  /*position: relative;*/
+  align-items: center;
+  display: flex;
+  top: -30px;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  margin: 30px 0 10px 0;
+  padding: 0;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.tabs{
+  display: none;
+}
+.active3{
+  border-radius: 5px;
+  background: #0276bd;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+  color: white;
+}
+.select {
+  padding: 8px 12px;
+  color: #333333;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.select:focus, .select:hover {
+  outline: none;
+  border: 1px solid #bbbbbb;
+}
+
+.select option{
+  background: #ffffff;
+}
+
+.tabs form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+}
+.tabs form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-bottom-width: 2px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+.tabs form .field input:focus{
+  border-color: red;
+}
+.tabs form .field input::placeholder{
+  color: #999;
+  transition: all 0.3s ease;
+}
+form .field input:focus::placeholder{
+  color: #b3b3b3;
+}
+
+
+.form-inner form .fpw-link{
+  margin-top: 5px;
+}
+
+.form-inner form .fpw-link a {
+  color: blue;
+  text-decoration: none;
+}
+.form-inner form .fpw-link a:hover{
+  text-decoration: underline;
+}
+
+form .btn{
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+form .btn .btn-layer{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background:  #333;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+form .btn:hover .btn-layer{
+  left: 0;
+}
+form .btn input[type="submit"]{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tabs form .paypal {
+  /*position: relative;*/
+  /*left: 30%;*/
+  width: 150px;
+  height: 50px;
+
+}
