@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Optiplus</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/stylesitem.css">
+	<!-- slider js -->
+	<script src="js/scriptitem.js"></script>
+	<script defer src="js/payment.js"></script> 
+	<script src="js/script.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+</head>
+<body>
+<div class="con">
+<!-- welcome header -->
+	<div id="welcome" class="col-12" style="background-color: white;">
+
+		<!-- <div class="col-1 logo" id="col-11-logo">
+			<a href="index.html"><img id="logo-image" src="images/logo.jpg" style=""></a>
+		</div> -->
+
+		<div class="col-12" id="col-11-navi" style="background-color: white;">
+			<h1>Welcome To <span style=" color: #0073eb">Opti</span><span style="color: #00ff00; outline-color: #0c9097; text-shadow: 2px 2px #0c9097;">plus</span> Online Store</h1>
+			<!-- mobile -->
+			<div class="topnav">
+				<button style="width: 38px; height: 38px; " class="icon" onclick="myFunction()">  
+			    <i class="fa fa-bars"></i>
+			  </button>
+				<a href="index.html"><img src="images1/home2.jpg" style="width: 15px; height: 15px;"> HOME</a>
+			  <div id="myLinks">
+					<a href="#search-frame">FRAMES</a>
+
+					<a href="#collections">SUNGLASSES</a>
+
+					<!-- <a href="#">COLLECTIONS</a> -->
+						<div class="dropdown" style="margin-left: -10px; margin-bottom: 2px;">
+						  <button class="drop-btn" style="padding-bottom:6px; font-size: 15px; font-family: 'Assistant', sans-serif;"">COLLECTIONS<img src="images1/downarrow.jpg" style="width: 15px; height: 15px;"></button>
+						  <div class="dropdown-content">
+								<div class="category">
+									<a href="#search-frame">FRAMES</a>
+								  <a href="#collections">SUNGLASSES</a>
+								  <!-- <a href="#">MALE</a> -->
+								  <!-- <a href="#">FEMALE</a> -->
+								</div>
+						  </div>
+						</div>
+
+						<a href="about.html">ABOUT</a>
+
+						<a href="signform.html" target="_blank">SIGN IN</a>
+
+			  </div>
+
+			</div>
+			<!--  -->
+			<div id="navi" class="col-12" style="background-color: #305373; padding: 5px;">
+				<div id="navi1" style="margin: 0px;">
+					<a href="index.html"><img src="images1/home2.jpg" style="width: 15px; height: 15px;"> HOME</a>
+
+					<!-- <a href="#search-frame">FRAMES</a> -->
+					<div class="dropdown">
+						<button class="drop-btn" style="padding-bottom:7px; font-size: 15px; font-family: 'Assistant', sans-serif;"><img src="images1/downarrow.jpg" style="width: 15px; height: 15px;"> FRAMES</button>
+						<div class="dropdown-content">
+							<div class="category">
+								<a href="#">SQUARE</a>
+								<a href="#">OVAL</a>
+								<a href="#">ROUND</a>
+								<a href="#">BOSTON</a>
+								<a href="#">WELLINGTON</a>
+								<a href="#">RIMLESS</a>
+								<a href="#">OTHER</a>
+							</div>
+						</div>
+					</div>
+
+					<a href="#collections">SUNGLASSES</a>
+
+					<!-- <a href="#">COLLECTIONS</a> -->
+						<div class="dropdown">
+						  <button class="drop-btn" style="padding-bottom:7px; font-size: 15px; font-family: 'Assistant', sans-serif;"><img src="images1/downarrow.jpg" style="width: 15px; height: 15px;"> COLLECTIONS</button>
+						  <div class="dropdown-content">
+								<div class="category">
+									<a href="#search-frame">FRAMES</a>
+								  <a href="#collections">SUNGLASSES</a>
+								  <!-- <a href="#">MALE</a>
+								  <a href="#">FEMALE</a> -->
+								</div>
+						  </div>
+						</div>
+
+						<a href="about.html">ABOUT</a>
+
+						<span id="sign-in" style="margin-top: 6px;"><a href="signform.html" target="_blank">SIGN IN</a>
+							<input type="text" name="search" placeholder="Search Here...">
+							<button type="submit" class="search-btn"><img src="images1/search.jpg" style="width: 12px; height: 12px;"></button>
+						</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr id="hr1" class="hr-break" >
+
+
+
+
+
+
+<!-- dhckskjcklsdjcklskml -->
+
+ 		<div class="item-content">
+ 			<div id="set1" class="col-1"></div>
+		 	<div id="set2" class="col-3">
+		 		<div class="slideshow-container">
+				  <!-- Full-width images -->
+				  <div class="mySlides fade">
+				    <img src="images/itemview/i1.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <img src="images/itemview/i2.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <img src="images/itemview/i3.jpg" style="width:100%">
+				  </div>
+
+				  <!-- Next and previous buttons -->
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span>
+				  <span class="dot" onclick="currentSlide(2)"></span>
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+ 			</div>
+ 			<div id="set3" class="col-1"></div>
+
+ 			<div id="set4" class="col-6">
+ 				<h1 class="item-no">OPC0458</h1>
+ 				<h3 class="item-price" style="margin-top: -15px;">LKR 6500.00</h3>
+ 				<p class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est</p>
+ 				<div class="qty">
+ 					<label style="font-size: 13px;">Quantity:</label>
+					<!-- <input id="qty" type="text" name="qty" value="1"> -->
+					<input type="text" id="qty" name="qty" min="1" max="20" value="1" onclick="myFunction2()" onkeyup="myFunction2()">
+					<p style="font-size: 10px; display:inline-block; line-height: 100%; opacity: .8;color: black"><strong>Additional 5% off (5 pieces or more)</strong></p>
+				    <br>
+
+				    <div class="total-disc" style="display: flex; width: 46%; justify-content: space-between;">
+
+				    <div class="totalP"><label style="font-size: 18px;color: #767676"><strong>Subtotal:</strong></label>
+ 					<label style="font-size: 19px;color: #767676">LKR</label>
+ 					<label id="textS" style="font-size: 19px;color: #767676">6500.00</label></div>
+
+				    <div class="discP"><label style="font-size: 18px;color: #767676"><strong>Discount:</strong></label>
+ 					<label style="font-size: 19px;color: #767676">LKR</label>
+ 					<label id="textD" style="font-size: 19px;color: #767676">0.00</label></div>
+
+ 					</div>
+ 					<hr style="display:inline-flex; width: 46%; justify-content: flex-start;color: #767676">
+ 					<div class="totalP"><label style="font-size: 18px;color: #292929;margin-top: 15px;"><strong>Total:</strong></label>
+ 					<label style="font-size: 19px;color: #292929; ">LKR</label>
+ 					<label id="textT" style="font-size: 19px;color: #292929; ">6500.00</label></div>
+
+				    <br>
+				</div>
+ 				
+				
+				<button id="add-to-wishlist" onclick="showAlert()">Add to wishlist</button>
+                <button id="buy-now" data-payment-target="#payment" onclick="showTab(1)">Buy Now</button>
+                <br><br><p id="msg" style="margin: 0; padding: 0" ></p>
+                <br><br><label style="font-size: 13px;">Payment:</label>
+                <img src="images/payment.png" width="150px"  style="font-size: 13px; transform:translate(0px,3px);">
+
+ 			</div>
+
+ 			<div id="set5" class="col-1"></div>
+ 		</div>
+
+
+
+<script src="js/scriptitem.js"></script>
+ 		<script type="text/javascript">
+ 			var slideIndex = 1;
+			showSlides(slideIndex);
+            var x = document.getElementById("qty");
+ 		</script>
+
+<!-- end -->
+
+
+
+<!-- Descriptin -->
+
+	<div class="description">
+		
+		<div id="set6" class="col-1"></div>
+		<div id="set7" class="col-10">
+			<!-- Next and previous buttons -->
+			<button id="des" class="des-button" onclick="showDiscription(1)"><h3 class="desh fade2">DECRIPTION</h3></button>
+			<button id="delivery" class="des-button" onclick="showDiscription(2)"><h3 class="desh fade2">DELIVERY</h3></button>
+			<button id="pay" class="des-button" onclick="showDiscription(3)"><h3 class="desh fade2">PAYMENTS</h3></button>
+			<hr style="margin:0;">
+			<div id="descrip1" class="mySlides1 fade1">
+				<p class="paragraph"><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc.</strong> <u>Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.</u></p>
+				<img src="images/itemdisc/i1.jpg">
+				<img src="images/itemdisc/i2.jpg">
+				<img src="images/itemdisc/i3.jpg">
+			</div>
+			<div id="descrip2" class="mySlides1 fade1">
+				<p class="paragraph"><strong>Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris. Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lacinia pretium, pede metus molestie lacus, at gravida wisi ante at libero. Quisque ornare placerat risus. Ut molestie magna at mi. Integer aliquet mauris et nibh. Ut mattis ligula posuere velit. Nunc sagittis. Curabitur varius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue. Nam vulputate</strong></p>
+			</div>
+			<div id="descrip3" class="mySlides1 fade1">
+				<img src="images/payment.jpg">
+				<p class="paragraph">Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis. Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. </p>
+			</div>
+
+			<script type="text/javascript">
+	 			showDiscription(1);
+	 			showTab(1);
+ 			</script>
+
+
+		</div>
+
+		<div id="set8" class="col-1"></div>
+	</div>
+
+
+
+<!-- end -->
+
+<script type="text/javascript">
+	
+</script>
+
+  <!-- payment form-->
+
+<div class="bg-payment">
+	<div class="payment-content">
+		<div class="payment-header">
+			<div class="payment-title"><h1>Payment - <label id="text1" style="font-size: 19px;">LKR 6500.00</label></h1></div>		
+	        <button data-close-button class="close-button" onclick="close1()">&times;</button>
+	    </div>
+	    <div class="slide-controls">
+            <button id="crad" class="btn-pay" onclick="showTab(1)">Credit/Debit Card</button>
+            <button id="paypal" class="btn-pay" onclick="showTab(2)">Paypal</button>
+        </div>
+        <div class="tabs">
+        	<form action="#" method="POST" class="card">            
+                <label for="card_type">Card Type  :  </label>
+                <select name="cardtype" class="select">  
+                	<option disabled selected>Select Card Type</option>
+                	<option value="Visa">Visa</option>
+                	<option value="AmericanExpress">AmericanExpress</option>
+                	<option value="MasterCard">MasterCard</option>
+                </select>
+
+                <div class="field">
+                  <input type="text" placeholder="Cardholder Name" name="holdername" required>
+                </div>
+                <div class="field">
+                  <input type="text" maxlength="16"  placeholder="Card Number" name="cardno" required>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="MM / YY" name="expdate" required>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Security Code(CVV)" name="cvv" required>
+                </div>
+
+                <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="PROCEED">
+                </div>
+            </form>
+        </div>
+        <div class="tabs">
+			<form action="#" class="paypal">
+                <img src="images/pp-pay.jpg" class="paypal">
+                <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                  <input type="password" placeholder="Password" required>
+                </div>
+                <div class="fpw-link"><a href="www.paypal.com">Forgot password?</a></div>
+                <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="LOGIN">
+                </div>
+         	</form>
+        </div>
+	</div>
+</div>
+
+	<div id="footer" class="col-12" style="background: #305373 ; padding: auto; margin: auto;display: block; border-top: 2px solid #252527;">
+
+		<!-- <div id="footer1" style="margin: auto"> -->
+			<!-- <div id="about" class="col"> -->
+				<div class="flip" id="flip1" onclick="myFunction1(1)"><h4>ADDRESS</h4></div>
+				<div class="panel" id="panel1">
+				<!-- <hr><br> -->
+				<address>
+					Optiplus Corporate Office<br>
+					No. 23, Ward Place,<br>
+					Colombo 07<br>
+				</address>
+				</div>
+			<!-- </div> -->
+			<!-- <div id="tel" class="col"> -->
+				<div class="flip" id="flip2" onclick="myFunction1(2)"><h4>TELEPHONE</h4></div>
+				<div class="panel" id="panel2">
+				<!-- <hr> --><br>
+				<p>+94 11 46 68 213</p><br>
+				</div>
+			<!-- </div> -->
+			<!-- <div id="fax" class="col"> -->
+				<div class="flip" id="flip3" onclick="myFunction1(3)"><h4>FAX</h4></div>
+				<div class="panel" id="panel3">
+				<!-- <hr> -->
+				<br>
+				<p>+94 11 58 89 253</p><br>
+				</div>
+			<!-- </div> -->
+			<!-- <div id="email" class="col"> -->
+				<div class="flip" id="flip4" onclick="myFunction1(4)"><h4>EMAIL</h4></div>
+				<div class="panel" id="panel4">
+				<!-- <hr> --><br>
+				<p><a href="" style="color: #bdc2c7;">example@gmail.com</a></p><br>
+				</div>
+			<!-- </div> -->
+		<!-- </div> -->
+		</div>
+				
+
+	<div id="copyright" class="col-12" style=" background-color: #305373">
+				<p><a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a></p>
+		<hr style="border: 1px solid #252527; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; opacity: .5;">
+		<p>&copy Copyright 2021, Optiplus -  All Rights Reserved. Sri Lanka</p>
+	<hr style="border: 1px solid #252527; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; opacity: .5;">
+</div>
+</div>
+</body>
+</html>

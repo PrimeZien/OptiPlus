@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign In</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon.ico">
+	
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="css/styleslogin.css">
+	<script src="js/scriptlogin.js"></script>
+</head>
+<body>
+	<!-- welcome header -->
+		<div id="welcome" class="col-12" style="background-color: white;">
+
+			<!-- <div class="col-1 logo" id="col-11-logo">
+				<a href="index.html"><img id="logo-image" src="images/logo.jpg" style=""></a>
+			</div> -->
+
+			<div class="col-12" id="col-11-navi" style="background-color: white;">
+				<h1>Welcome To <span style=" color: #0073eb">Opti</span><span style="color: #00ff00; outline-color: #0c9097; text-shadow: 2px 2px #0c9097;">plus</span> Online Store</h1>
+				<!-- mobile -->
+				<div class="topnav">
+				<button style="width: 38px; height: 38px; " class="icon" onclick="myFunction()">  
+			    <i class="fa fa-bars"></i>
+			  </button>
+					<a href="index.html"><img src="images1/home2.jpg" style="width: 15px; height: 15px;"> HOME</a>
+				  <div id="myLinks">
+						<a href="#search-frame">FRAMES</a>
+
+						<a href="#collections">SUNGLASSES</a>
+
+						<!-- <a href="#">COLLECTIONS</a> -->
+							<div class="dropdown" style="margin-left: -10px; margin-bottom: 2px;">
+							  <button class="drop-btn" style="padding-bottom:6px;">COLLECTIONS<img src="images1/downarrow.jpg" style="width: 15px; height: 15px;"></button>
+							  <div class="dropdown-content">
+									<div class="category">
+										<a href="#search-frame">FRAMES</a>
+									  <a href="#collections">SUNGLASSES</a>
+									  <!-- <a href="#">MALE</a> -->
+									  <!-- <a href="#">FEMALE</a> -->
+									</div>
+							  </div>
+							</div>
+
+							<a href="about.html">ABOUT</a>
+
+							<a href="signform.html">SIGN IN</a>
+
+				  </div>
+
+				</div>
+				<!--  -->
+				<div id="navi" class="col-12" style="background-color: #305373; padding: 5px;">
+					<div id="navi1" style="margin: 0px;">
+						<a href="index.html"><img src="images1/home2.jpg" style="width: 15px; height: 15px;"> HOME</a>
+
+						<!-- <a href="#search-frame">FRAMES</a> -->
+						<div class="dropdown">
+							<button class="drop-btn" style="padding-bottom:6px;"><img src="images1/downarrow.jpg" style="width: 15px; height: 15px;"> FRAMES</button>
+							<div class="dropdown-content">
+								<div class="category">
+									<a href="#">SQUARE</a>
+									<a href="#">OVAL</a>
+									<a href="#">ROUND</a>
+									<a href="#">BOSTON</a>
+									<a href="#">WELLINGTON</a>
+									<a href="#">RIMLESS</a>
+									<a href="#">OTHER</a>
+								</div>
+							</div>
+						</div>
+
+						<a href="#collections">SUNGLASSES</a>
+
+						<!-- <a href="#">COLLECTIONS</a> -->
+							<div class="dropdown">
+							  <button class="drop-btn" style="padding-bottom:6px;"><img src="images1/downarrow.jpg" style="width: 15px; height: 15px;"> COLLECTIONS</button>
+							  <div class="dropdown-content">
+									<div class="category">
+										<a href="#search-frame">FRAMES</a>
+									  <a href="#collections">SUNGLASSES</a>
+									  <!-- <a href="#">MALE</a> -->
+									  <!-- <a href="#">FEMALE</a> -->
+									</div>
+							  </div>
+							</div>
+
+							<a href="about.html">ABOUT</a>
+
+							<span id="sign-in" style="margin-top: 6px;"><a href="signform.html">SIGN IN</a>
+								<input type="text" name="search" placeholder="Search Here...">
+								<button type="submit" class="search-btn"><img src="images1/search.jpg" style="width: 12px; height: 12px;"></button>
+							</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="hr-break" >
+
+
+		<!-- form -->
+		<div class="form-box">
+		  <h1>USER LOGIN</h1>
+
+			<hr class="lForm"><br>
+		    <form class="detail">
+
+					<label for="fname">Email: </label><br>
+					<input class="details" type="text" name="mail" value="" placeholder="ex: example@gmail.com"  required><br>
+
+					<label for="fname">Password: </label><br>
+					<input class="details" type="password" name="pw" value="" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+
+					<label id="rem">
+					  <input type="checkbox" checked="checked" name="remember"> Remember me
+					</label>
+					<br>
+					<br>
+
+					<input class="log" type="submit" value="Login">
+					<!-- <button id="details" onclick="document.location='#'" type="button" name="login" value="">Login</button> -->
+
+					<button id="reg" onclick="document.location='regform.html'" type="button" name="login" value="">Register</button>
+
+			</form>
+			<div id="error"></div>
+	  </div>
+
+</body>
+</html>
